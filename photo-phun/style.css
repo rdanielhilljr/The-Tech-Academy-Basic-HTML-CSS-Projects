@@ -1,0 +1,51 @@
+h1, h2, h3, h4, p, a, li {
+    font-family: helvetica, arial, sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+.photo-container {
+            position: relative;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .block {
+            text-align: center;
+        }
+
+img {
+    width: 100%;
+}
+
+.form-account {
+    max-width: 500px;
+    height: auto;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+
+
+
+.account {
+    width: 300px;
+    margin-top: 5px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 2px 2px darkgrey;
+}
+
+    
+    

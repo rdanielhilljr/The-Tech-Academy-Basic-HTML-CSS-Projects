@@ -1,103 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Photo Phun</title>
-        <style>
-            .photo-container {
-                position: relative;
-                text-align: center;
-                color: white;
-                font-size: 30px;
-            }
-            
-            .centered {
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-}
-            .block {
-                text-align: center;
-            }
-        </style>
-	</head>
-    <body>
-        <!-- NAV -->
-		<div class="wrap">
-			<div class="menu-container">
-				<ul class="menu">
-					<a href="#home"><li>HOME</li></a>
-					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#about"><li>ABOUT US</li></a>
-				</ul>
-			</div>
-		</div>
-		<!--END NAV -->
-        
-        <main>
-            <section id="contact">
-			<div class="container">
-				<div class="heading-padding">
-					<div class="photo-container">
-                        <img src="./images/photographer.jpg" alt="Photograper" style="width: 100%;">
-                         <div class="centered">Welcome to Photo Phun!</div>  
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo Phun</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home">
+                    <li>HOME</li>
+                </a>
+                <a href="#gallery">
+                    <li>GALLERY</li>
+                </a>
+                <a href="#about">
+                    <li>ABOUT US</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!--END NAV -->
+
+    <main>
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <div class="photo-container">
+                        <img src="./images/photographer.jpg" alt="Photograper">
+                        <div class="centered">Welcome to Photo Phun!</div>
                     </div>
                     <p class="block">Viewing Photos of things we love make us happier! Here is what <a href="https://www.huffpost.com/entry/photographs-can-boost-your-happiness_n_3210947">Huffington Post</a> has to say about it.</p>
 
-<blockquote cite="https://www.huffpost.com/entry/photographs-can-boost-your-happiness_n_3210947">
-<strong>Photos help us remember the past.</strong> One of the best ways to make yourself happy in the present is to recall happy times from the past. Photos are a great memory-prompt, and because we tend to take photos of happy occasions, they weight our memories to the good.
-</blockquote>
+                    <blockquote cite="https://www.huffpost.com/entry/photographs-can-boost-your-happiness_n_3210947">
+                        <strong>Photos help us remember the past.</strong> One of the best ways to make yourself happy in the present is to recall happy times from the past. Photos are a great memory-prompt, and because we tend to take photos of happy occasions, they weight our memories to the good.
+                    </blockquote>
                     <div>
                         <hr>
                     </div>
-						<h2><span>Create Your Account.</span>
-							<br />
-						</h2>
-						<p>
-                            Fill Out form below and let us know what photos you prefer.</p>
-                          <p> <em>Note: You must select at least one option below.</em> 
-						</p>
-                        
-                        <ul>
-                            <p>Photo Options:</p>
-                            <li>Space Photos</li>
-                            <li>Sports Photos</li>
-                            <li>Wildlife Photos</li>
-                            <li>Plant Photos</li>
-                        </ul>
-						<div class="form-account">
-							<form action="" method="post">
-								<input class="account" type="text" value="First Name">
-								<input class="account" type="text" value="Last Name">
-								<input class="account" type="text" value="Email Address">
-								
-                                <p>Please select your photo preference:</p>
-                                  <input type="radio" name="space" value="male"> Space<br>
-                                  <input type="radio" name="sports" value="female"> Sports<br>
-                                  <input type="radio" name="wildlife" value="other"> Wildlife<br>
-                                  <input type="radio" name="plant" value="other"> Plants<br>  
+                    <h2><span>Create Your Account.</span>
+                        <br />
+                    </h2>
+                    <p>
+                        Fill Out form below and let us know what photos you prefer.</p>
+                    <p> <em>Note: You must select at least one option below.</em>
+                    </p>
 
-								<div class="form-spacer">
-								</div>
-								<div class="submit">
-									<input type="submit" value="Submit">
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			
-		</section>
-        
-        </main>
-        
-        
-        <footer>
-            <p>Photo Phun &copy; 2019</p>
-        </footer>
-    
-    
-    </body>
-    
+                    <ul>
+                        <p>Photo Options:</p>
+                        <li>Space Photos</li>
+                        <li>Sports Photos</li>
+                        <li>Wildlife Photos</li>
+                        <li>Plant Photos</li>
+                    </ul>
+                    <div class="form-account">
+                        <form action="" method="post">
+                            <input class="account" type="text" value="First Name"><br>
+                            <input class="account" type="text" value="Last Name"><br>
+                            <input class="account" type="text" value="Email Address">
+
+                            <p>Please select your photo preference:</p>
+                            <input type="radio" name="space" value="male"> Space<br>
+                            <input type="radio" name="sports" value="female"> Sports<br>
+                            <input type="radio" name="wildlife" value="other"> Wildlife<br>
+                            <input type="radio" name="plant" value="other"> Plants<br>
+
+                            <div class="form-spacer">
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Photo Phun &copy; 2019</p>
+    </footer>
+
+
+</body>
+
 </html>
